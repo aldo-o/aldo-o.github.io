@@ -14,6 +14,7 @@
             background-color: #555;
             color: #000;
         }
+
         .card {
             background-color: #fff;
             max-width: 1000px;
@@ -22,54 +23,68 @@
             border: 1px solid #000;
             box-shadow: 5px 5px 0px #222;
         }
+
         header {
             border-bottom: 1px solid black;
             padding-bottom: 10px;
             margin-bottom: 20px;
         }
+
         .header-content {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
         }
+
         .header-text {
             flex-grow: 1;
         }
+
         h1, h2 {
             margin-bottom: 10px;
         }
+
         nav {
             margin-bottom: 20px;
         }
+
         nav a {
             margin-right: 10px;
             text-decoration: none;
             color: black;
         }
+
         nav a:hover {
             text-decoration: underline;
         }
+
         section {
             margin-bottom: 30px;
         }
+
         ul {
             list-style-type: square;
             padding-left: 20px;
         }
+
         .experience-item {
             margin-bottom: 20px;
         }
+
         .experience-header {
             display: flex;
             justify-content: space-between;
             align-items: baseline;
         }
+
         .experience-title {
             font-weight: bold;
         }
+
         .experience-date {
             /*font-style: italic;*/
         }
+
         .image-list {
             list-style-type: none;
             padding: 0;
@@ -77,12 +92,14 @@
             gap: 10px;
             margin-top: 10px;
         }
+
         .image-list img {
             width: 50px;
             height: 50px;
             object-fit: cover;
             border: 1px solid #000;
         }
+
         footer {
             border-top: 1px solid black;
             padding-top: 10px;
@@ -90,129 +107,183 @@
             text-align: center;
         }
     </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNM6BX2BS5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-CNM6BX2BS5');
+    </script>
 </head>
 <body>
-    <div class="card">
-        <header>
-            <div class="header-content">
-                <div class="header-text">
-                    <h1>Aldo Osmenaj</h1>
-                    <p>Tech Lead | Sr Software Engineer | Solution Architect</p>
-                </div>
+<div class="card">
+    <header>
+        <div class="header-content">
+            <div class="header-text">
+                <h1>Aldo Osmenaj</h1>
+                <p>Tech Lead | Sr Software Engineer | Solution Architect</p>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Notable works</a>
-            <a href="#experience">Experience</a>
-            <a href="#links">Articles</a>
-            <a href="#contact">Contact</a>
-            <a href="#skills">Skills</a>
-        </nav>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Notable works</a>
+        <a href="#experience">Experience</a>
+        <a href="#links">Articles</a>
+        <a href="#contact">Contact</a>
+        <a href="#skills">Skills</a>
+    </nav>
 
-        <main>
-            <section id="about">
-                <h3>About Me</h3>
-                <p>~10 YOE. .py & .js (& .ts) dev. Currently, studying AI in my potato laptop. My <a href="https://dev.to/aldo" target="_blank">blog</a>. Hopefully I find the time to write something.</p>
-            </section>
+    <main>
+        <section id="about">
+            <h3>About Me</h3>
+            <p>~10 YOE. .py & .js (& .ts) dev. Currently, studying AI in my potato laptop. My <a
+                    href="https://dev.to/aldo" target="_blank">blog</a>. Hopefully I find the time to write something.
+            </p>
+        </section>
 
-            <section id="projects">
-                <h3>Notable works</h3>
-                <ul>
-                    <li><a href="https://echoiceparts.com/" target="_blank">https://echoiceparts.com/</a> - An e-commerce store built from the ground up in .py & .ts.</li>
-                    <li><a href="https://nr.ivrtechnology.com/" target="_blank">https://nr.ivrtechnology.com/</a> - Tech Lead. Voice, Email & SMS outbound campaign tool.</li>
-                    <li><a href="https://www.lufthansa-industry-solutions.com/de-en/" target="_blank">Lufthansa</a> - Joined as one of the first two founding engineers at Lufthansa's
-                        new offices in <a href="https://maps.app.goo.gl/jmQGdqM6kvNWnFkG8" target="_blank">Tirana, Albania</a>, contributing to its growth into the country's largest tech company.</li>
-                </ul>
-            </section>
+        <section id="projects">
+            <h3>Notable works</h3>
+            <ul>
+                <li><a href="https://echoiceparts.com/" target="_blank">https://echoiceparts.com/</a> - An e-commerce
+                    store built from the ground up in .py & .ts.
+                </li>
+                <li><a href="https://nr.ivrtechnology.com/" target="_blank">https://nr.ivrtechnology.com/</a> - Tech
+                    Lead. Voice, Email & SMS outbound campaign tool.
+                </li>
+                <li><a href="https://www.lufthansa-industry-solutions.com/de-en/" target="_blank">Lufthansa</a> - Joined
+                    as one of the first two founding engineers at Lufthansa's
+                    new offices in <a href="https://maps.app.goo.gl/jmQGdqM6kvNWnFkG8" target="_blank">Tirana,
+                        Albania</a>, contributing to its growth into the country's largest tech company.
+                </li>
+            </ul>
+        </section>
 
-            <section id="experience">
-                <h3>Recent Experience</h3>
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <span class="experience-title">Lead Software Engineer | <a href="https://www.linkedin.com/company/invoice-cloud-inc/" target="_blank">InvoiceCloud, Inc.</a></span>
-                        <span class="experience-date">May 2023 - Present</span>
-                    </div>
-                    <ul>
-                        <li>Leading <a href="https://nr.ivrtechnology.com/" target="_blank">nr.ivrtechnology.com</a>, one of the core products and with a team of 3 developers.</li>
-                        <li>Scaled the Voice, Email & SMS campaign manager, reducing delivery time for 5M messages from 16 hours to under 2 hours.</li>
-                        <li>Implemented Grafana for monitoring which improved error handling, reducing incident response time from 4+ hours to 30 mins.</li>
-                        <li>Took the initiative to start R&D efforts for implementing and running LLMs, exploring new opportunities to enhance automation and AI-driven solutions within the organization.</li>
-                    </ul>
+        <section id="experience">
+            <h3>Recent Experience</h3>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="experience-title">Lead Software Engineer | <a
+                            href="https://www.linkedin.com/company/invoice-cloud-inc/" target="_blank">InvoiceCloud, Inc.</a></span>
+                    <span class="experience-date">May 2023 - Present</span>
                 </div>
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <span class="experience-title">Lead Software Engineer & Solution Architect | <a href="https://www.linkedin.com/company/energy-choice-inc./" target="_blank">Energy Choice, Inc.</a></span>
-                        <span class="experience-date">September 2017 - May 2023</span>
-                    </div>
-                    <ul>
-                        <li>Built <a href="https://echoiceparts.com/" target="_blank">echoiceparts.com</a>, an e-commerce store from the ground up, resulting in doubling of the customer base and tripling of sales for the fiscal year.</li>
-                        <li>Created iOS warehouse management software with Swift and SwiftUI, reducing order preparation and shipping time from ~ 1 hour to ~ 15 min. <i>Screenshots below consist of the first production version.</i>
-                            <ul class="image-list">
-                                <li><a href="img/0x0ss-2.png" target="_blank"><img src="img/0x0ss-2.png" alt="v1"></a></li>
-                                <li><a href="img/0x0ss-13.png" target="_blank"><img src="img/0x0ss-13.png" alt="v1"></a></li>
-                                <li><a href="img/0x0ss-14.png" target="_blank"><img src="img/0x0ss-14.png" alt="v1"></a></li>
-                                <li><a href="img/0x0ss-15.png" target="_blank"><img src="img/0x0ss-15.png" alt="v1"></a></li>
-                                <li><a href="img/0x0ss-16.png" target="_blank"><img src="img/0x0ss-16.png" alt="v1"></a></li>
-                                <li><a href="img/0x0ss-17.png" target="_blank"><img src="img/0x0ss-17.png" alt="v1"></a></li>
-                                <li><a href="img/0x0ss-18.png" target="_blank"><img src="img/0x0ss-18.png" alt="v1"></a></li>
-                            </ul>
-                        </li>
-                        <li>Implemented Docker and CI/CD pipelines to automate testing and deployment, reducing it by 90% and accelerating feature delivery by 50%.</li>
-                    </ul>
+                <ul>
+                    <li>Leading <a href="https://nr.ivrtechnology.com/" target="_blank">nr.ivrtechnology.com</a>, one of
+                        the core products and with a team of 3 developers.
+                    </li>
+                    <li>Scaled the Voice, Email & SMS campaign manager, reducing delivery time for 5M messages from 16
+                        hours to under 2 hours.
+                    </li>
+                    <li>Implemented Grafana for monitoring which improved error handling, reducing incident response
+                        time from 4+ hours to 30 mins.
+                    </li>
+                    <li>Took the initiative to start R&D efforts for implementing and running LLMs, exploring new
+                        opportunities to enhance automation and AI-driven solutions within the organization.
+                    </li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="experience-title">Lead Software Engineer & Solution Architect | <a
+                            href="https://www.linkedin.com/company/energy-choice-inc./" target="_blank">Energy Choice, Inc.</a></span>
+                    <span class="experience-date">September 2017 - May 2023</span>
                 </div>
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <span class="experience-title">Lead Software Engineer | <a href="https://www.linkedin.com/company/lufthansa-industry-solutions/" target="_blank">Lufthansa</a></span>
-                        <span class="experience-date">January 2017 - September 2017</span>
-                    </div>
-                    <ul>
-                        <li>
-                            One of the first two founding engineers at Lufthansa's new offices in <a href="https://maps.app.goo.gl/jmQGdqM6kvNWnFkG8" target="_blank">Tirana, Albania</a>, contributing to its growth into the country's largest tech company.
-                        </li>
-                        <li>Facilitated the hiring of over 40 software engineers and 20 QA testers, significantly scaling the team.</li>
-                    </ul>
+                <ul>
+                    <li>Built <a href="https://echoiceparts.com/" target="_blank">echoiceparts.com</a>, an e-commerce
+                        store from the ground up, resulting in doubling of the customer base and tripling of sales for
+                        the fiscal year.
+                    </li>
+                    <li>Created iOS warehouse management software with Swift and SwiftUI, reducing order preparation and
+                        shipping time from ~ 1 hour to ~ 15 min. <i>Screenshots below consist of the first production
+                            version.</i>
+                        <ul class="image-list">
+                            <li><a href="img/0x0ss-2.png" target="_blank"><img src="img/0x0ss-2.png" alt="v1"></a></li>
+                            <li><a href="img/0x0ss-13.png" target="_blank"><img src="img/0x0ss-13.png" alt="v1"></a>
+                            </li>
+                            <li><a href="img/0x0ss-14.png" target="_blank"><img src="img/0x0ss-14.png" alt="v1"></a>
+                            </li>
+                            <li><a href="img/0x0ss-15.png" target="_blank"><img src="img/0x0ss-15.png" alt="v1"></a>
+                            </li>
+                            <li><a href="img/0x0ss-16.png" target="_blank"><img src="img/0x0ss-16.png" alt="v1"></a>
+                            </li>
+                            <li><a href="img/0x0ss-17.png" target="_blank"><img src="img/0x0ss-17.png" alt="v1"></a>
+                            </li>
+                            <li><a href="img/0x0ss-18.png" target="_blank"><img src="img/0x0ss-18.png" alt="v1"></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Implemented Docker and CI/CD pipelines to automate testing and deployment, reducing it by 90%
+                        and accelerating feature delivery by 50%.
+                    </li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="experience-title">Lead Software Engineer | <a
+                            href="https://www.linkedin.com/company/lufthansa-industry-solutions/" target="_blank">Lufthansa</a></span>
+                    <span class="experience-date">January 2017 - September 2017</span>
                 </div>
-            </section>
-
-            <section id="links">
-                <h3>Favorite links & articles</h3>
                 <ul>
-                    <li><a href="https://youtu.be/CZ3wIuvmHeM" target="_blank">Mastering Chaos — A Netflix Guide to Microservices</a>. One of the best talks on building high scale systems.</li>
-                    <li><a href="https://youtu.be/p8u_k2LIZyo" target="_blank">Fast Inverse Square Root — A Quake III Algorithm</a>. John Carmack's famous algorithm on Quake III.</li>
-                    <li><a href="https://youtu.be/i1AHCaokqhg" target="_blank">4-2: The History of Super Mario Bros.' Most Infamous Level</a></li>
-                    <li><a href="https://youtu.be/094y1Z2wpJg" target="_blank">The Simplest Math Problem No One Can Solve - Collatz Conjecture</a></li>
-                    <li><a href="https://github.com/frappe/frappe" target="_blank">Frappe</a>. Frappe Framework built in Python.</li>
+                    <li>
+                        One of the first two founding engineers at Lufthansa's new offices in <a
+                            href="https://maps.app.goo.gl/jmQGdqM6kvNWnFkG8" target="_blank">Tirana, Albania</a>,
+                        contributing to its growth into the country's largest tech company.
+                    </li>
+                    <li>Facilitated the hiring of over 40 software engineers and 20 QA testers, significantly scaling
+                        the team.
+                    </li>
                 </ul>
-            </section>
+            </div>
+        </section>
 
-            <section id="contact">
-                <h3>Contact</h3>
-                <ul>
-                    <li>Email me@eraldo.dev</li>
-                    <li>LinkedIn <a href="https://www.linkedin.com/in/aldoosmenaj/" target="_blank">@aldoosmenaj</a></li>
-                    <li>Github <a href="https://github.com/aldo-o/" target="_blank">@aldo-o</a></li>
-                </ul>
-            </section>
+        <section id="links">
+            <h3>Favorite links & articles</h3>
+            <ul>
+                <li><a href="https://youtu.be/CZ3wIuvmHeM" target="_blank">Mastering Chaos — A Netflix Guide to
+                    Microservices</a>. One of the best talks on building high scale systems.
+                </li>
+                <li><a href="https://youtu.be/p8u_k2LIZyo" target="_blank">Fast Inverse Square Root — A Quake III
+                    Algorithm</a>. John Carmack's famous algorithm on Quake III.
+                </li>
+                <li><a href="https://youtu.be/i1AHCaokqhg" target="_blank">4-2: The History of Super Mario Bros.' Most
+                    Infamous Level</a></li>
+                <li><a href="https://youtu.be/094y1Z2wpJg" target="_blank">The Simplest Math Problem No One Can Solve -
+                    Collatz Conjecture</a></li>
+                <li><a href="https://github.com/frappe/frappe" target="_blank">Frappe</a>. Frappe Framework built in
+                    Python.
+                </li>
+            </ul>
+        </section>
 
-            <section id="skills">
-                <h3>Skills</h3>
-                <ul>
-                    <li>Python (Django, Flask, FastAPI, Frappe, ERPNext), Pandas, Numpy etc</li>
-                    <li>JS (Angular 1.6, ReactJS, NextJS, NodeJS, TypeScript) etc</li>
-                    <li>MariaDB, MySQL, PostgreSQL, MongoDB, Couchbase</li>
-                    <li>Linux (Ubuntu, Debian), Docker, CI/CD, Kubernetes</li>
-                    <li>RabbitMQ, Redis, Celery</li>
-                    <li>Grafana, Sentry, OpenTelemetry</li>
-                    <li>Llama, exo, LangChain & building AI Agents</li>
-                </ul>
-            </section>
-        </main>
+        <section id="contact">
+            <h3>Contact</h3>
+            <ul>
+                <li>Email me@eraldo.dev</li>
+                <li>LinkedIn <a href="https://www.linkedin.com/in/aldoosmenaj/" target="_blank">@aldoosmenaj</a></li>
+                <li>Github <a href="https://github.com/aldo-o/" target="_blank">@aldo-o</a></li>
+            </ul>
+        </section>
 
-<!--        <footer>-->
-<!--            <p>&copy; 2025 Aldo Osmenaj. All rights reserved.</p>-->
-<!--        </footer>-->
-    </div>
+        <section id="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>Python (Django, Flask, FastAPI, Frappe, ERPNext), Pandas, Numpy etc</li>
+                <li>JS (Angular 1.6, ReactJS, NextJS, NodeJS, TypeScript) etc</li>
+                <li>MariaDB, MySQL, PostgreSQL, MongoDB, Couchbase</li>
+                <li>Linux (Ubuntu, Debian), Docker, CI/CD, Kubernetes</li>
+                <li>RabbitMQ, Redis, Celery</li>
+                <li>Grafana, Sentry, OpenTelemetry</li>
+                <li>Llama, exo, LangChain & building AI Agents</li>
+            </ul>
+        </section>
+    </main>
+</div>
 </body>
 </html>
