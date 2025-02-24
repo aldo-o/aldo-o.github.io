@@ -27,6 +27,14 @@
             padding-bottom: 10px;
             margin-bottom: 20px;
         }
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .header-text {
+            flex-grow: 1;
+        }
         h1, h2 {
             margin-bottom: 10px;
         }
@@ -62,6 +70,32 @@
         .experience-date {
             /*font-style: italic;*/
         }
+        .image-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .image-list img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border: 1px solid #000;
+        }
+        .resume-link {
+            display: inline-block;
+            /*margin-top: 10px;*/
+            padding: 5px 10px;
+            border: 1px solid #000;
+            text-decoration: none;
+            color: #000;
+            white-space: nowrap;
+        }
+        .resume-link:hover {
+            background-color: #000;
+            color: #fff;
+        }
         footer {
             border-top: 1px solid black;
             padding-top: 10px;
@@ -73,8 +107,12 @@
 <body>
     <div class="card">
         <header>
-            <h1>Aldo Osmenaj</h1>
-            <p>Teach Lead | Sr Software Engineer | Solution Architect</p>
+            <div class="header-content">
+                <div class="header-text">
+                    <h1>Aldo Osmenaj</h1>
+                    <p>Teach Lead | Sr Software Engineer | Solution Architect</p>
+                </div>
+            </div>
         </header>
 
         <nav>
@@ -131,7 +169,17 @@
                     </div>
                     <ul>
                         <li>Built <a href="https://echoiceparts.com/" target="_blank">echoiceparts.com</a>, an e-commerce store from the ground up, resulting in doubling of the customer base and tripling of sales for the fiscal year.</li>
-                        <li>Created iOS warehouse management software with Swift and SwiftUI, reducing order preparation and shipping time from ~ 1 hour to ~ 15 min.</li>
+                        <li>Created iOS warehouse management software with Swift and SwiftUI, reducing order preparation and shipping time from ~ 1 hour to ~ 15 min. Screenshots below consist of an early version.
+                            <ul class="image-list">
+                                <li><a href="img/0x0ss-2.png" target="_blank"><img src="img/0x0ss-2.png" alt="v1"></a></li>
+                                <li><a href="img/0x0ss-13.png" target="_blank"><img src="img/0x0ss-13.png" alt="v1"></a></li>
+                                <li><a href="img/0x0ss-14.png" target="_blank"><img src="img/0x0ss-14.png" alt="v1"></a></li>
+                                <li><a href="img/0x0ss-15.png" target="_blank"><img src="img/0x0ss-15.png" alt="v1"></a></li>
+                                <li><a href="img/0x0ss-16.png" target="_blank"><img src="img/0x0ss-16.png" alt="v1"></a></li>
+                                <li><a href="img/0x0ss-17.png" target="_blank"><img src="img/0x0ss-17.png" alt="v1"></a></li>
+                                <li><a href="img/0x0ss-18.png" target="_blank"><img src="img/0x0ss-18.png" alt="v1"></a></li>
+                            </ul>
+                        </li>
                         <li>Implemented Docker and CI/CD pipelines to automate testing and deployment, reducing it by 90% and accelerating feature delivery by 50%.</li>
                     </ul>
                 </div>
